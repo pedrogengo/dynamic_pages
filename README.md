@@ -24,11 +24,11 @@ A FastAPI application that generates complete web pages dynamically using Google
 
 ### Monkey's page
 <video width="320" height="240" controls>
-  <source src="assets/monkey.mp4" type="video/mp4">
+  <source src="https://github.com/pedrogengo/dynamic_pages/blob/main/assets/monkey.mp4" type="video/mp4">
 </video>
 
 ### Cat's page
 <video width="320" height="240" controls>
-  <source src="assets/cat.mp4" type="video/mp4">
+  <source src="https://github.com/pedrogengo/dynamic_pages/blob/main/assets/cat.mp4" type="video/mp4">
 </video>
 
