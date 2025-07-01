@@ -24,10 +24,10 @@ A FastAPI application that generates complete web pages dynamically using Google
 
 ### Monkey's page
 <div align="center">
-  <video src="https://github.com/pedrogengo/dynamic_pages/blob/main/assets/monkey.mp4" width="70%"> </video>
+  <video src="https://raw.githubusercontent.com/pedrogengo/dynamic_pages/main/assets/monkey.mp4" width="70%"> </video>
 </div>
 
 ### Cat's page
 <div align="center">
-  <video src="https://github.com/pedrogengo/dynamic_pages/blob/main/assets/cat.mp4" width="70%"> </video>
+  <video src="https://raw.githubusercontent.com/pedrogengo/dynamic_pages/main/assets/cat.mp4" width="70%"> </video>
 </div>
