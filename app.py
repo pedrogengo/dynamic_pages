@@ -1,9 +1,7 @@
-# main.py
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
 import os
 import base64
-from io import BytesIO
 import re
 from google import genai
 import dotenv
@@ -47,9 +45,10 @@ def process_image_placeholders(html_content: str) -> str:
             )
         )
         response_image = response.generated_images[0].image.image_bytes
+        base64_image = base64.b64encode(response_image).decode('utf-8')
             
         # Create img tag with generated image
-        img_tag = f'<img src="data:image/png;base64,{response_image}" alt="{caption}" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">'
+        img_tag = f'<img src="data:image/png;base64,{base64_image}" alt="{caption}" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy">'
         
         # Replace the first occurrence of this placeholder
         placeholder = f'<IMAGEHERE>{caption}</IMAGEHERE>'

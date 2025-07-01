@@ -19,3 +19,11 @@ A FastAPI application that generates complete web pages dynamically using Google
     ```
 3. Run the server: python main.py
 4. Visit http://localhost:8080/monkey or any other topic!
+
+## Examples
+
+### Monkey's page
+![](./assets/monkey.mov)
+
+### Cat's page
+![](./assets/cat.mov)
