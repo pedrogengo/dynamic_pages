@@ -23,7 +23,12 @@ A FastAPI application that generates complete web pages dynamically using Google
 ## Examples
 
 ### Monkey's page
-![](./assets/monkey.mp4)
+<video width="320" height="240" controls>
+  <source src="./assets/monkey.mp4" type="video/mp4">
+</video>
 
 ### Cat's page
-![](./assets/cat.mp4)
+<video width="320" height="240" controls>
+  <source src="./assets/cat.mp4" type="video/mp4">
+</video>
+
