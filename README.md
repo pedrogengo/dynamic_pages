@@ -1,6 +1,6 @@
 # Dynamic Pages with Gemini-Flash and Imagen
 
-A FastAPI application that generates complete web pages dynamically using Google's Gemini Flash LLM and Imagen API. Simply visit any URL path and watch as AI creates a unique, visually stunning webpage with custom content and AI-generated images!
+A FastAPI application that generates complete web pages dynamically using Google's Gemini Flash LLM and Imagen API. Simply visit any URL path and watch as AI creates a unique, visually stunning webpage with custom content and AI-generated images! 
 
 ## How It Works
 
